@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 下载构建
-      uses: actions/download-artifact@v3.0.2
+      uses: actions/download-artifact@v4.1.7
         
     - name: 创建发布
       uses: softprops/action-gh-release@v1
